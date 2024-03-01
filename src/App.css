@@ -1,0 +1,200 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.navbar-cart {
+  background-color: #f39c12;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item h3 {
+  margin-bottom: 10px;
+}
+
+.product-item button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-item button:hover {
+  background-color: #2980b9;
+}
+
+.cart {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.cart-item img {
+  max-width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+/* ... Autres styles ... */
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-item {
+  width: calc(33.33% - 20px); /* Calcul de la largeur pour 3 produits par ligne avec une marge de 20px entre eux */
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+/* ... Autres styles ... */
+
+/* ... Autres styles ... */
+
+/* ... Autres styles ... */
+
+.product-item img {
+  width: 200px; /* Largeur fixe pour les images des produits */
+  height: 200px; /* Hauteur fixe pour les images des produits */
+  object-fit: cover; /* Ajuste la taille de l'image tout en conservant le rapport hauteur/largeur */
+  border: 1px solid #ddd; /* Ajoute un contour léger */
+  border-radius: 5px; /* Ajoute une bordure arrondie */
+  margin: 0 auto; /* Centre l'image horizontalement */
+  display: block; /* Assure que margin: 0 auto; fonctionne correctement */
+}
+
+/* ... Autres styles ... */
+/* src/App.css */
+/* ... autres styles ... */
+
+/* src/App.css */
+/* ... autres styles ... */
+
+/* Style générique pour les boutons */
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #3498db;
+  transition: background-color 0.3s ease;
+}
+
+/* Changement de couleur au survol */
+.btn:hover {
+  background-color: #2980b9;
+}
+
+/* src/App.css */
+/* ... autres styles ... */
+
+/* Style pour le bouton générique */
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #3498db;
+  transition: background-color 0.3s ease;
+}
+
+/* Changement de couleur au survol */
+.btn:hover {
+  background-color: #2980b9;
+}
+
+/* Style spécifique pour un autre type de bouton */
+.special-btn {
+  /* Styles spécifiques pour un autre type de bouton */
+  color: #fff;
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+/* Style spécifique pour un bouton de formulaire */
+.form-btn {
+  /* Styles spécifiques pour un bouton de formulaire */
+  color: #fff;
+  background-color: #27ae60;
+  border-color: #27ae60;
+}
